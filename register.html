@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Регистрация</h2>
+        <form action="register.php" method="POST">
+            <div class="form-group">
+                <label for="surname">Фамилия:</label>
+                <input type="text" id="surname" name="firstname" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="lastname" required>
+            </div>
+            <div class="form-group">
+                <label for="date_birthday">Дата рождения:</label>
+                <input type="date" id="date_birthday" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="mail">Почта:</label>
+                <input type="email" id="mail" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="login">Логин:</label>
+                <input type="text" id="login" name="login" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <input type="submit" value="Сохранить">
+        </form>
+        <a href="login.html">Назад</a>
+    </div>
+</body>
+</html>
